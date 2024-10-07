@@ -1,0 +1,27 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply bg-gray-100;
+}
+
+.container {
+  @apply max-w-md mx-auto p-4 bg-white shadow-lg rounded-lg;
+}
+
+.button {
+  @apply px-4 py-2 font-semibold text-white rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-opacity-75;
+}
+
+.button-green {
+  @apply bg-green-500 hover:bg-green-600 focus:ring-green-400;
+}
+
+.button-red {
+  @apply bg-red-500 hover:bg-red-600 focus:ring-red-400;
+}
+
+.input {
+  @apply w-full p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400;
+}
